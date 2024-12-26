@@ -5,7 +5,7 @@ qr= qrcode.QRCode(
     box_size=10,
     border=5 
 )
-data =""
+data ="" // this line to add a link to add your show path data
 qr.add_data(data)
 qr.make(fit=True)
 img=qr.make_image(fill="black",black_color="white")
